@@ -1,25 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[8]:
-
-
-pip install streamlit
-
-
-# In[5]:
-
-
-pip install pydub
-
-
-# In[2]:
-
-
-pip install bert-extractive-summarizer
-
-
-# In[3]:
+# In[1]:
 
 
 import streamlit as st
@@ -28,13 +10,13 @@ import speech_recognition as sr
 from pydub import AudioSegment
 
 
-# In[4]:
+# In[2]:
 
 
 from summarizer import Summarizer
 
 
-# In[5]:
+# In[3]:
 
 
 def convert_to_wav(audio_path):
@@ -44,7 +26,7 @@ def convert_to_wav(audio_path):
     return wav_path
 
 
-# In[6]:
+# In[4]:
 
 
 def audio_to_text(audio_path):
@@ -55,7 +37,7 @@ def audio_to_text(audio_path):
         return text
 
 
-# In[7]:
+# In[5]:
 
 
 def generate_summary(text):
@@ -64,7 +46,7 @@ def generate_summary(text):
     return summary
 
 
-# In[8]:
+# In[6]:
 
 
 def main():
@@ -93,6 +75,18 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+# In[ ]:
+
+
+
+
+
+# In[ ]:
+
+
+
 
 
 # In[ ]:
