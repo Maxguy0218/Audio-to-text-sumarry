@@ -6,7 +6,7 @@ Please have a look on url give.
 ## Usage
 
 1. Make sure you have Python and the required dependencies installed. You can install the dependencies using the following command: pip install -r requirements.txt
-2. Run the Streamlit app locally by executing the following command: streamlit run text_summarizer_app.py
+2. Run the Streamlit app locally by executing the following command: streamlit run app.py
 
 3. This will open a new tab in your browser with the app running.
 
@@ -18,7 +18,7 @@ Please have a look on url give.
 
 ## Deployment
 
-You can deploy this app to various platforms like Heroku or Streamlit Sharing. Make sure to update the API URL and authorization token in the `text_summarizer_app.py` file if you have your own Hugging Face model.
+You can deploy this app to various platforms like Heroku or Streamlit Sharing. Make sure to update the API URL and authorization token in the `app.py` file if you have your own Hugging Face model.
 
 ## Dependencies
 
